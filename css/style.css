@@ -85,7 +85,8 @@ h2 {
 	font-weight: 400;
 	line-height: 12px;
 	color: #979797;
-	letter-spacing: 0.20em;
+	text-transform: uppercase;
+	letter-spacing: 0.30em;
 	padding-bottom: 20px;
 	-webkit-font-variant-ligatures: no-common-ligatures;
 }
@@ -112,13 +113,15 @@ a:hover {
 	text-decoration: underline;
 }
 
-a.highlight {
+a.about {
 	border-bottom: 2px solid #3897f0;
   padding-bottom: 5px;
 	transition: all 0.3s ease-in-out !important;
+	color: #353535;
+	background-image: none;
 }
 
-a.highlight:hover {
+a.about:hover {
 	padding-left: 5px;
 	padding-right: 5px;
 }

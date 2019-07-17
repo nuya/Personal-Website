@@ -424,7 +424,8 @@ header .container {
 #side-nav a {
 	position: relative;
 	font-size: 11px;
-	letter-spacing: 0.2em;
+	letter-spacing: 0.30em;
+	text-transform: uppercase;
 	text-decoration: none;
 	color: #8a8a8a;
 	padding-left: 40px;
